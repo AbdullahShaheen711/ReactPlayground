@@ -1,0 +1,28 @@
+.fa-star {
+    margin: 0.5em;
+    font-size: 40px;
+}
+
+.game-num {
+    display: inline-block;
+    margin: 0.5em;
+    text-align: center;
+    font-size: 250%;
+    background-color: #ccc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #eee;
+    color: #ddd;
+    cursor: not-allowed;
+}
+
+.used {
+    background-color: #aaddaa;
+    color: #99bb99;
+    cursor: not-allowed;
+}
